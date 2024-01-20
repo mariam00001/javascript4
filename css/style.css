@@ -1,0 +1,75 @@
+body{
+    background-color: #24353F;
+    font-family: 'Titillium Web', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+h1{
+    color: #17A2B8;
+}
+.form-control{
+    background-color: #24353F !important; 
+    width: 700px;   
+   color: white;
+}
+.form-control::placeholder{
+    color: white;
+}
+.form-control::-ms-input-placeholder {
+    color: white;
+}
+.content{
+    background-color:#24353F;
+    width: 800px;
+    height: 400px;
+    margin-top: 50px;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+.content4{
+    background-color:#24353F;
+    width: 800px;
+    height: 200px;
+    margin-top: 100px;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+.content2{
+    background-color:#24353F;
+    width: 800px;
+    height: 450px;
+    margin-top: 50px;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+.bot{
+ background-color: #24353F;
+ color: #17a2b8;
+ border: 1px solid #17a2b8;
+ border-radius: 5px;
+ height: 35px;
+ transition: all 0.5s;
+ width: 700px;
+}
+p{
+    font-size: 16px;
+}
+.bot:hover{
+    background-color: #17a2b8;
+    color: white;
+}
+a{
+    color: white;
+}
+.boot{
+background-color: #24353F;
+ color: #ffffff80;
+ border: 1px solid orange;
+ border-radius: 5px;
+ transition: all 0.5s;
+}
+.boot:hover{
+    background-color: orange;
+    color: white;
+}
+#welcomMesssage{
+    padding-top: 70px;
+    font-size: 40px;
+}
